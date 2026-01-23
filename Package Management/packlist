@@ -1,0 +1,23 @@
+#!/bin/bash
+
+# This tool is created for Arch users who just want a list of installed pacman &
+# flathub packages for referencing to use it on a new install and not clone
+# the entire drive due to some reason. Very niche I know but I find it useful.
+
+# Save this to your binaries folder and run: "packlist"
+
+# Output files
+PACMAN_LIST="$HOME/Documents/pacman-packages.txt"
+FLATPAK_LIST="$HOME/Documents/flatpak-packages.txt"
+
+echo "=== Saving explicitly installed pacman packages ==="
+pacman -Qqe > "$PACMAN_LIST"
+echo "Pacman packages saved to $PACMAN_LIST"
+
+echo
+echo "=== Saving explicitly installed flatpak apps ==="
+flatpak list --app --columns=application > "$FLATPAK_LIST"
+echo "Flatpak apps saved to $FLATPAK_LIST"
+
+echo
+echo "Done!"
