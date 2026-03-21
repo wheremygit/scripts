@@ -10,7 +10,6 @@ _notify() {
     echo "==> INFO: $msg" >&2
 
     for user in $(users | sed 's| |\n|g' | sort | uniq); do
-        # We added 'sound-name' to the hints dictionary below
         busctl --machine="${user}@.host" --user call org.freedesktop.Notifications \
             /org/freedesktop/Notifications \
             org.freedesktop.Notifications  \
