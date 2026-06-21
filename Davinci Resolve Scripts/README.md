@@ -55,13 +55,6 @@ cp *.py ~/.local/share/DaVinciResolve/Fusion/Scripts/Utility/
 
 ```
 
-Make them executable:
-
-```bash
-chmod +x ~/.local/share/DaVinciResolve/Fusion/Scripts/Utility/*.py
-
-```
-
 ### 2. Run the Scripts in Resolve
 
 1. Open DaVinci Resolve and open a project.
