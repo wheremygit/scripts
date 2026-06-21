@@ -34,7 +34,7 @@ Instead of dealing with separate tracks or fragile GUI automation, these scripts
 * **Import Media.py:** Multi-select any combination of supported files (videos, audio, images, LUTs). Videos are optimized on the fly; other assets are imported directly.
 * **Import Bin.py:** Select an entire directory. The script transcodes any video files inside it and automatically creates a matching, organized Bin (sub-folder) in your Media Pool.
 
-*For standalone dependencies and setup instructions, check out the [Davinci Resolve Scripts README](https://www.google.com/search?q=./Davinci%2520Resolve%2520Scripts/README.md).*
+*For standalone dependencies and setup instructions, check out the [Davinci Resolve Scripts README](https://github.com/wheremygit/scripts/blob/main/Davinci%20Resolve%20Scripts/README.md).*
 
 ### 2. Package Management Utilities
 
