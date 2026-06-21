@@ -1,4 +1,4 @@
-> [!NOTE}
+> [!NOTE]
 > Inspired from [CachyOS Hooks repo](https://github.com/CachyOS/cachyos-hooks/blob/master/cachyos-reboot-required).
 
 # Usage
