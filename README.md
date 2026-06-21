@@ -10,14 +10,14 @@ Based on the repository layout:
 
 ```text
 .
-├── LICENSE                            # Repository license terms
-├── README.md                          # Main repository overview (this file)
-├── Davinci Resolve Scripts/           # Video editing automation tools
-│   ├── Import Bin.py                  # Automated folder-to-bin sync tool
-│   ├── Import Media.py                # Advanced asset-by-asset media importer
-│   └── README.md                      # Detailed setup for DaVinci Resolve scripts
-└── Package Management/                # System administration tools
-    └── arch-reboot-check.sh           # Arch Linux post-update reboot checker
+├── LICENSE                              # Repository license terms
+├── README.md                            # Main repository overview (this file)
+├── Davinci Resolve Scripts/             # Video editing automation tools
+│   ├── Import Bin.py                    # Automated folder-to-bin sync tool
+│   ├── Import Media.py                  # Advanced asset-by-asset media importer
+│   └── README.md                        # Detailed setup for DaVinci Resolve scripts
+└── Package Management/arch-reboot-check # System administration tools
+    └── arch-reboot-check.sh             # Arch Linux post-update reboot checker
 
 ```
 
