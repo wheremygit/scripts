@@ -1,5 +1,8 @@
 # DaVinci Resolve Smart Importer for Linux
 
+> [!NOTE]
+> These scripts were inspired by [Andrew Shark's Resolve Scripts](https://gitlab.com/AndrewShark/davinci-resolve-scripts). I don't know any code nor I am a dev thus these scripts were generated using an LLM. Use at your own risk.
+
 A pair of automation scripts for **DaVinci Resolve Studio on Linux** that fixes the infamous "silent AAC audio" issue on import.
 
 Instead of dealing with separate tracks or fragile GUI automation, these scripts pre-process your media files instantly using FFmpeg. They clone the video stream exactly (zero quality loss, lightning-fast) and transcode the audio to lossless **FLAC**, then inject the unified clips directly into your open Resolve project.
@@ -78,5 +81,5 @@ To speed up your workflow, you can map these scripts to keyboard shortcuts:
 ## Environment & Testing
 
 * **Tested OS:** Arch Linux (KDE Plasma)
-* **Tested Application:** DaVinci Resolve Studio 19 / 21
+* **Tested Application:** DaVinci Resolve Studio 21
 * **Dependencies Checked:** FFmpeg, KDialog, Python 3.11+
