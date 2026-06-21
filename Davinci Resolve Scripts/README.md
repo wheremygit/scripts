@@ -9,7 +9,7 @@ Instead of dealing with separate tracks or fragile GUI automation, these scripts
 
 ## Features
 
-* **Smart Import:** Multi-select any combination of supported files (videos, audio, images, LUTs). Videos are optimized on the fly; other assets are imported directly.
+* **Smart Import:** Multi-select any combination of supported files (videos, audio, images). Videos are optimized on the fly; other assets are imported directly.
 * **Smart Bin:** Select an entire directory. The script transcodes any video files inside it and automatically creates a matching, organized Bin (sub-folder) in your Media Pool.
 * No separate audio tracks, no extra folders, and no temporary timelines.
 
