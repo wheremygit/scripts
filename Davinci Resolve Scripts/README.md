@@ -3,7 +3,7 @@
 > [!NOTE]
 > These scripts were inspired by [Andrew Shark's Resolve Scripts](https://gitlab.com/AndrewShark/davinci-resolve-scripts). I don't know any code nor I am a dev thus these scripts were generated using an LLM. Use at your own risk.
 
-A pair of automation scripts for **DaVinci Resolve Studio on Linux** that fixes the infamous "silent AAC audio" issue on import.
+A pair of automation scripts for **DaVinci Resolve Studio on Linux** that fixes the infamous "silent AAC audio" issue on import as well integrates with your DE's file picker offerring seemless media importing on the Linux Desktop until [Blackmagic Fixes it themseleves](https://forum.blackmagicdesign.com/viewtopic.php?f=33&t=149142).
 
 Instead of dealing with separate tracks or fragile GUI automation, these scripts pre-process your media files instantly using FFmpeg. They clone the video stream exactly (zero quality loss, lightning-fast) and transcode the audio to lossless **FLAC**, then inject the unified clips directly into your open Resolve project.
 
