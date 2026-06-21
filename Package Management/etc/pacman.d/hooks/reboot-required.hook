@@ -1,0 +1,31 @@
+[Trigger]
+Operation = Upgrade
+Type = Package
+Target = amd-ucode
+Target = intel-ucode
+Target = btrfs-progs
+Target = e2fsprogs
+Target = xfsprogs
+Target = cryptsetup
+Target = linux
+Target = linux*
+Target = linux-hardened
+Target = linux-lts
+Target = linux-zen
+Target = linux-firmware
+Target = nvidia*
+Target = mesa
+Target = systemd*
+Target = wayland
+Target = egl-wayland
+Target = xorg-server*
+Target = mkinitcpio*
+Target = booster*
+Target = dracut*
+
+[Action]
+Description = Checking if a reboot is required...
+When = PostTransaction
+Depends = bash
+NeedsTargets
+Exec = /usr/local/bin/reboot-check
